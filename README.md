@@ -1,7 +1,7 @@
 # YouMovie
 YouMovie is a web application that allows users to explore and search for movies, similar to IMDB. Users can watch trailers, find their favorite actors and storylines, and add movies to their watchlist after signing in.
 
-### Features
+## Features
   * Search Movies: Find specific movies by title.
   * Explore Movies: Browse through a collection of movies to discover new ones.
   * Watch Trailers: View trailers for movies.
