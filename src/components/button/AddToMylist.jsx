@@ -31,7 +31,7 @@ function AddToMylist({id, poster_path, vote_average, title, overview}) {
     };
 
     fetchData();
-  }, [])
+  }, [isAutentified, id])
 
 
   const addToMylist = async () => {

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import SignupComponent from "./signupComponent"
 
 export const metadata = {
@@ -8,9 +9,9 @@ export const metadata = {
 const Signup = () => {
 
   return (
-    <>
-    <SignupComponent/>
-    </>
+    <Suspense fallback={<div>Loading...</div>}>
+      <SignupComponent/>
+    </Suspense>
   )
 }
 

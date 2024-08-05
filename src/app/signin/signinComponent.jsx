@@ -59,7 +59,7 @@ return !isAutentified ? (
       </div>
       <button type='submit' className={styles.btn}>Login</button>
       {err && <p className={styles.error}>Email or password incorrect</p>}
-      <p>Don't have account? <Link href={`/signup?redirect=${path}`} className={styles.signupLink}>Sign up</Link></p>
+      <p>Don&apos;t have account? <Link href={`/signup?redirect=${path}`} className={styles.signupLink}>Sign up</Link></p>
       <p>{loading ? 'Signing in...' : ''}</p>
     </form>
   </div>

@@ -45,7 +45,7 @@ function MylistComponent() {
       }
   };
   fetchData();
-}, [currentPage, isAutentified])
+}, [currentPage, isAutentified, firstIndex, lastIndex])
 
   const removeFromList = async(event, id) =>{
     event.preventDefault();

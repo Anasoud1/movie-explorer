@@ -26,7 +26,7 @@ function Posts({apiUrl}) {
       .then((data) => {
         setData(data)
       })
-  }, [currentPage])
+  }, [currentPage, apiUrl])
  
   const movies = data.results;
 

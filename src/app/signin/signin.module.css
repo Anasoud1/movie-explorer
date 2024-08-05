@@ -54,8 +54,7 @@
 }
 .signupLink{
     color: rgb(48, 123, 253);
-    padding-left: 6px;
-    text-decoration: underline;
+    margin-left: 4px;
 }
 .containerForm p{
     display: flex;
