@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from './player.module.css'
 import Link from 'next/link';
 import sty from '../../page.module.css'
-import AddToMylist from '@/components/button/addToMyList';
+import AddToMylist from '@/components/button/AddToMylist';
 
 export const metadata = {
   title: "YouMovie - Movie info",
