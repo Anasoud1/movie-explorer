@@ -114,3 +114,20 @@
         grid-template-columns: 1fr 1fr
     }
 }
+@media (max-width:776px){
+    .imgContainer{
+        position: relative;
+        height: 60px;
+        width: 60px;
+    }
+    .actorName{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .character{
+        font-size: 8px;
+    }
+    .actors{
+        gap: 20px 2px;
+    }
+}
