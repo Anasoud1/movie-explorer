@@ -28,6 +28,8 @@
   border-radius: 20px;
   padding: 2px 2px;
   padding-left: 4px;
+  background-color: black;
+  width: 90%;
 }
 .search{
   border: none;

@@ -37,10 +37,11 @@ function Header() {
       <Link href="/" className={`${styles.logo}`}>YouMovie</Link>
       
       <div className={styles.navContainer}>
-        {!isHomePage && <Search />}
+        {/* {!isHomePage && <Search />} */}
         <ul id={'navbar'} className={styles.navBar} >
           <FontAwesomeIcon className={styles.arrowIcon} icon={faCircleArrowRight} 
           onClick={hideMenu}/>
+          {!isHomePage && <Search />}
           <Link href="/upcoming">Upcoming</Link>
           <Link href="/topRated">Top Rated</Link>
           <Link href="/popular">Popular</Link>
